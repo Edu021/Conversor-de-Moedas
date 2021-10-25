@@ -1,0 +1,30 @@
+html {
+    background-color: rgba(10, 27, 58, 0.548);
+}
+.conversores {
+    color: rgb(0, 0, 0);
+    border: 3px solid rgb(55,55,55);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: rgb(240, 240, 240);
+    padding: 30px;
+    max-width: 700px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    border-radius: 15px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+background-color: #dddddd;
+}

@@ -1,0 +1,49 @@
+<html>
+
+
+
+    <div class="conversores">
+        <h1>Conversor de moeda</h1>
+        <select name="dropdown" id="moeda1">
+            <option value="USD">Dólar</option>
+            <option value="BRL">Real Brasileiro</option>
+            <option value="CAD">Dólar Canadense</option>
+            <option value="EUR">Euro</option>
+            <option value="BTC">Bitcoin</option>
+            <option value="GBP">Libra Esterlina</option>
+            <option value="JPY">Iene Japonês</option>
+        </select>
+        <small>PARA</small>
+        <select name="dropdown2" id="moeda2">
+            <option value="BRL">Real Brasileiro</option>
+            <option value="USD">Dólar</option>
+            <option value="CAD">Dólar Canadense</option>
+            <option value="EUR">Euro</option>
+            <option value="BTC">Bitcoin</option>
+            <option value="GBP">Libra Esterlina</option>
+            <option value="JPY">Iene Japonês</option>
+        </select>
+        <input type="text" id="moeda" placeholder="$ 0.00">
+        <button onclick="converter()" id="">Converter</button>
+        <h4 id="valor_convertido">0 BRL</h4>
+    </div>
+    <div class="conversores">
+        <select id="moeda_escolhida_cotacoes">
+            <option value="BRL">Real Brasileiro</option>
+            <option value="USD">Dólar</option>
+            <option value="CAD">Dólar Canadense</option>
+            <option value="EUR">Euro</option>
+            <option value="BTC">Bitcoin</option>
+            <option value="GBP">Libra Esterlina</option>
+            <option value="JPY">Iene Japonês</option>
+        </select>
+        <button onclick="mostrar_cotacoes()">Atualizar</button>
+        <input type="button" value="Ler json" onclick="lista_de_moedas()">
+        <br><br>
+        <label id="obj"></label>
+    </div>
+    <script src="app.js"></script>
+    <script src="moedas_lista.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+</html>
